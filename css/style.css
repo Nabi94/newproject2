@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  font-family: "Mulish", sans-serif;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+}
+
+body {
+  background-color: #F4F8FD;
+}
+
+/* Navigaion */
+header {
+  width: 100%;
+  height: 124px;
+}
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 124px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header nav .ul_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+header nav .ul_1 li {
+  padding-left: 1.5625rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+header nav .ul_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+header nav .ul_2 li {
+  padding-left: 1.5625rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+header nav .ul_2 .btn1 {
+  margin-right: 15px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff748d), to(#ff8e4f));
+  background: linear-gradient(#ff748d, #ff8e4f);
+  border-radius: 25px;
+  padding: 10px 35px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Jumbotron */
+.jumbotron_img {
+  position: absolute;
+  width: 100%;
+  max-width: 100%;
+}
+
+.jumbotron {
+  background-color: rgba(9, 24, 63, 0.7);
+  border-radius: 10px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 50px;
+  left: 450px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 650px;
+  height: 350px;
+}
+.jumbotron .jumbotron_head {
+  color: white;
+  font-family: "Merriweather", serif;
+  margin-bottom: 30px;
+}
+.jumbotron .jumbotron_body {
+  color: white;
+  text-align: center;
+}
+.jumbotron .btn2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff748d), to(#ff8e4f));
+  background: linear-gradient(#ff748d, #ff8e4f);
+  border-radius: 25px;
+  padding: 10px 35px;
+  color: white;
+  text-decoration: none;
+  margin-top: 25px;
+}
+
+/* Container */
+.container {
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: auto;
+}
+.container .card {
+  background-color: #FFF;
+  border-radius: 15px;
+  width: 600px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.container .card .card_header {
+  text-align: center;
+  width: 400px;
+  margin: 30px auto;
+}
+.container .card .card_body {
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.container .card .btn3 {
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #09183f;
+  border-radius: 10px;
+  padding: 15px 0;
+  width: 250px;
+  margin: 50px auto;
+  color: #09183f;
+}/*# sourceMappingURL=style.css.map */
